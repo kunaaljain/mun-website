@@ -1,0 +1,367 @@
+/*--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+---*/
+html, body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+	background:#fff; 
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+	margin: 0;
+	padding: 0;
+}
+/*--header--*/
+.header1{
+	background: url(../images/header-banner.jpg) no-repeat 0px 0px;
+	min-height: 865px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+}
+.logo {
+	display: block;
+	margin-top: 5em;
+}
+.social-icons li {
+	display: inline-block;
+}
+.social-icons {
+	margin-top: 3em;
+}
+.social-icons i {
+	width: 20px;
+	height: 40px;
+	background: url("../images/img-sprites.png") no-repeat 0px 0px;
+	display: inline-block;
+		
+}
+.social-icons i.facebook {
+	background-position: -3px 7px;
+}
+.social-icons i.twitter {
+	background-position: -30px 7px;
+}
+.social-icons i.googlepluse {
+	background-position: -59px 8px;
+}
+.social-icons i.pre {
+	background-position: -87px 7px;
+}
+.social-icons i.dribble {
+	background-position: -113px 8px;
+}
+.social-icons i.be {
+	background-position: -143px 7px;
+}
+.header h1 {
+	color: #fff;
+	font-weight: 100;
+	margin: 1em 0 0.8em;
+	font-size: 2em;
+}
+.header h1 span {
+	font-weight: 600;
+}
+.social-icons a {
+	border: 3px solid rgba(48, 155, 151, 0);
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	display: block;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+}
+.social-icons a:hover {
+	border: 3px solid#fff;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	display: block;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+}
+span.countDays {
+	border: 3px solid#fff;
+	color: #fff;
+	border-radius: 100%;
+	padding: 38px;
+	margin-right: 0px;
+}
+span.countHours {
+	border: 3px solid#fff;
+	border-radius: 50%;
+	color: #fff;
+	padding: 38px;
+	margin-right: 0px;
+}
+span.countMinutes{
+	border: 3px solid#fff;
+	border-radius: 50%;
+	color: #fff;
+	padding: 38px;
+	margin-right: 0px;
+}
+span.countSeconds{
+	border: 3px solid#fff;
+	border-radius: 50%;
+	color: #fff;
+	padding: 38px;
+}
+
+/*--/header--*/
+span.timer {
+	position: absolute;
+	top: 84px;
+	left: 72px;
+	font-size: 16px;
+	color: #fff;
+}
+span.timer-1 {
+	position: absolute;
+	top: 85px;
+	left: 229px;
+	font-size: 16px;
+	color: #fff;
+}
+span.timer-2 {
+	position: absolute;
+	top: 87px;
+	left: 392px;
+	font-size: 16px;
+	color: #fff;
+}
+span.timer-3 {
+	position: absolute;
+	top: 86px;
+	left: 561px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.imglogo {
+    max-width:270px;
+    max-height:270px;
+    width: auto;
+    height: auto;
+}
+
+@media (max-width: 1024px){
+	.logo {
+			margin-top: 4em;
+	}
+	.header {
+		min-height: 710px;
+	}
+	.social-icons {
+		margin-top: 2em;
+	}
+	.header h1 {
+		margin: 1em 0 1.2em;
+	}
+}
+@media (max-width: 768px) {
+    .logo {
+        margin-top: 2em;
+    }
+
+    .social-icons {
+        margin: 1em 0 1em;
+    }
+
+    .header h1 {
+        margin: 0.5em 0 1em;
+    }
+
+    .header {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 640px){
+	span.timer {
+		left: 68px;
+	}
+	span.timer-1 {
+		left: 187px;
+	}
+	span.timer-2 {
+		left: 330px;
+	}
+	span.timer-3 {
+		left: 470px;
+	}
+	.logo {
+		margin-top: 1em;
+	}
+	.social-icons {
+		margin: 0.5em 0 0.5em;
+	}
+	.header h1 {
+		margin: 0.5em 0 0.5em;
+	}
+	.header {
+		min-height: 535px;
+	}
+	span.countDays {
+		padding: 25px;
+	}
+	span.countHours {
+		padding: 25px;
+	}
+	span.countMinutes {
+		padding: 25px;
+	}
+	span.countSeconds {
+		padding: 25px;
+	}
+}
+@media (max-width: 480px){
+	.logo img {
+		width: 30%;
+	}
+	.header h1 {
+		font-size: 2.5em;
+		margin: 0.5em 0 0.5em;
+	}
+	span.timer {
+		font-size: 12px;
+		font-weight: 600;
+		left: 59px;
+		top: 72px;
+	}
+	span.timer-1 {
+		font-size: 12px;
+		font-weight: 600;
+		left: 149px;
+		top: 71px;
+	}
+	span.timer-2 {
+		font-size: 12px;
+		font-weight: 600;
+		left: 242px;
+		top: 70px;
+	}
+	span.timer-3 {
+		font-size: 12px;
+		font-weight: 600;
+		left: 338px;
+		top: 70px;
+	}
+	span.countDays {
+		padding: 9px 16px 9px 16px;
+	}
+	span.countHours {
+		padding: 9px 16px 9px 16px;
+	}
+	span.countMinutes {
+		padding: 9px 16px 9px 16px;
+	}
+	span.countSeconds {
+		padding: 9px 16px 9px 16px;
+	}
+	.header {
+		min-height: 460px;
+	}
+}
+@media (max-width: 320px){
+	.social-icons a {
+		width: 38px;
+		height: 38px;
+	}
+	.social-icons a:hover {
+		width: 38px;
+		height: 38px;
+	}
+	.social-icons i.facebook {
+		background-position: -3px 2px;
+	}
+	.social-icons i.twitter {
+		background-position: -30px 2px;
+	}
+	.social-icons i.googlepluse {
+		background-position: -59px 2px;
+	}
+	.social-icons i.pre {
+		background-position: -87px 1px;
+	}
+	.social-icons i.dribble {
+		background-position: -113px 2px;
+	}
+	.social-icons i.be {
+		background-position: -143px 0px;
+	}
+	.header h1 {
+		font-size: 1.7em;
+		margin: 0.5em 0 0.5em;
+	}
+	span.countDays {
+		padding: 1px 15px 1px 12px;
+		margin-right: 4px;
+	}
+	span.countHours {
+		padding: 1px 15px 1px 12px;
+		margin-right: 4px;
+	}
+	span.countMinutes {
+		padding: 1px 15px 1px 12px;
+		margin-right: 4px;
+	}
+	span.countSeconds {
+		padding: 1px 15px 1px 12px;
+		margin-right: 4px;
+	}
+	span.timer {
+		left: 25px;
+		top: 71px;
+		font-size: 10px;
+	}
+	span.timer-1 {
+		font-size: 10px;
+		font-weight: 600;
+		left: 84px;
+		top: 70px;
+	}
+	span.timer-2 {
+		font-size: 10px;
+		font-weight: 600;
+		left: 146px;
+		top: 68px;
+	}
+	span.timer-3 {
+		left: 213px;
+		top: 67px;
+		font-size: 10px;
+	}
+	.header {
+		min-height: 300px;
+	}
+	.logo {
+        margin-top: 1em;
+    }
+	.social-icons {
+		margin: 0;
+	}
+	.header h1 {
+		font-size: 1.7em;
+		margin: 0;
+	}
+}
+/*--/responsive design--*/
