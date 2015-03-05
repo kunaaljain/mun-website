@@ -2481,3 +2481,10 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 }
 /*--media-quaries-end-here--*/
+/*---google map---*/
+#map-canvas {
+        width: 500px;
+        height: 300px;
+        float:right;
+        }
+/*-----google map ends--*/
