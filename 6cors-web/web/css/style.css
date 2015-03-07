@@ -2488,3 +2488,113 @@ ul.callbacks_tabs.callbacks2_tabs {
         float:right;
         }
 /*-----google map ends--*/
+
+    #contactus{
+
+        position:relative;
+        /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#121212',GradientType=0 ); *//* IE6-9 */
+        width:100%;
+        height:150px;
+        padding-top:50px;
+
+    }
+
+    #contactus #email img{
+        width:30px;
+        height:30px;
+
+
+
+    }
+    #contactus #email {
+        padding: 20px 20px 20px 20px;
+        display:inline-block;
+        float:right;
+        width:350px;
+
+    }
+
+    #contactus #email img:hover{
+        cursor:pointer;
+    }
+
+    #contactus #email span{
+        padding:10px 10px;
+        color:#fff;
+        font-size:14px;
+        font-family: 'Roboto Slab', serif;
+        line-height:30px;
+        font-weight:300;
+        margin-top:-5px;
+    }
+
+    #furthercont{
+
+        position:relative;
+        /*display:inline-block;*/
+        padding-left:20px;
+        width:350px;
+        text-transform:uppercase;
+
+    }
+    #ab{
+        text-transform:uppercase;
+    }
+
+    #furthercont span{
+        padding:10px 10px;
+        color:#fff;
+        font-size:14px;
+        font-family: 'Roboto Slab', serif;
+        line-height:25px;
+        font-weight:300;
+        margin-top:-5px;
+
+    }
+
+    #credits{
+        margin:0 auto;
+        text-align:center;
+        position:relative;
+
+
+
+    }
+    #credits span{
+        padding:10px 10px;
+        color:#fff;
+        font-size:10px;
+        font-family: 'Roboto Slab', serif;
+        line-height:15px;
+        font-weight:300;
+    }
+
+    #furthercont1{
+        padding-left:20px;
+        width:350px;
+
+    }
+    #furthercont1 span{
+        text-align:justify;
+        padding:10px 10px;
+        color:#fff;
+        font-size:14px;
+        font-family: 'Roboto Slab', serif;
+        line-height:25px;
+        font-weight:300;
+        margin-top:-5px;
+    }
+
+    #logo{
+        width:140px;
+        height:140px;
+        margin:0 auto;
+        position:relative;
+        margin-top:-140px;
+        padding-bottom:20px;
+    }
+
+    #logo > img{
+        width: 100%;
+        height: 100%;
+    }

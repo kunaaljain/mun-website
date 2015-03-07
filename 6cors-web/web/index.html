@@ -119,6 +119,7 @@ var marker = new google.maps.Marker({
 					<ul class="nav">
                         <li><a href="#about" class="scroll">HOME</a></li>
 					    <li><a href="#about" class="scroll">ABOUT</a></li>
+                        <li><a href="#work" class="scroll">TEAM</a></li>
 						<li><a href="#services" class="scroll">RESOURCES</a></li>
 						<li><a href="#work" class="scroll">CONTACT</a></li>
                     </ul>
@@ -181,8 +182,33 @@ var marker = new google.maps.Marker({
                 <h3>ABOUT US</h3>
                 <div class="about-top">
                     <p>
-                        Born with the aim to bring out the best in every individual, the concept of IITG MUN is guided by a set of values and goals that seeks to provide every individual “a hands down” idea of the intricacies of the decision making process at international level, in an effort to provide holistic development of society as a unit. We have placed our firm belief on the idea of bringing together people from all over India, separated by regions, principles and cultures, united by humanity, to be a part of this platform and facilitate meaningful dialogue and discussion on wide ranging international issues, which affect the international community as a whole. With a vision to witness one of the most advanced, intense and crucial debate in the committees of IITG MUN, we strive to imbibe the virtues of leadership, co-operation, negotiations and diplomatic competence, and not only serve as a pathway to self-development, but also to nurture the policy makers of future generation, who will ultimately bring end to the misery and misfortunes of the world, through novel ideas and suggestions. We seek to break free from all the tangled threads of predefined notions and ideas, to engage in an enhancing debate and redefine all the boundaries and ideas, to provide all the students involved, from the delegates, the Executive Board, and the Secretariat; an idea of conflict resolution through peaceful means. At IITG MUN, you will definitely get the best you can, from the perfectly planned agendas, accomplished executive board, to most comprehensive delegate guides; to garner maximum participation of the delegates. We are at constant efforts to outdo ourselves to provide our delegates the best possible environment to make the MUN one of the most renowned one’s throughout India.
-                    </p>
+                        IIT Guwahati MUN, the Model United Nations conference extraordinaire, is back
+
+                        with renewed dynamism and exemplary content. We firmly believe in providing a
+
+                        definite exposure of the scenario of world politics to young people, who will go on
+
+                        to become national leaders and policy makers of the future. Delegates from all
+
+                        over the nation come to debate upon crucial topics, and to constitute a solution
+
+                        through eloquent debate, lobbying and voting. These help in tackling the real
+
+                        world problems in a positive way and simultaneously help the participants imbibe
+
+                        the qualities of leadership and team work. They also get a splendid opportunity to
+
+                        master the arts of articulation, networking, relation building, conceptualization
+
+                        and healthy debating which go a long way in life. The panoramic and
+
+                        comprehensive background guides give you a taste of what we have in store.
+
+                        From carefully crafted agendas to an accomplished executive board and
+
+                        passionate debating to elegant social nights, IITG MUN has it all. For first timers
+
+                        and veterans of MUNing alike, we promise you a memorable date with diplomacy.                    </p>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -386,13 +412,58 @@ var marker = new google.maps.Marker({
 	</div>
 	<!--end-contact-->
 	<!--start-footer-->
+    <div class="footer-payment" style="background-color: rgb(51,51,51); padding-top: 15px; padding-bottom: 15px">
+        <div class="container">
+            <div class="payclick">
+                <h3 style="text-align: center; color: white">Click for Payment Details</h3>
+            </div>
+            <div class="payinfo" style="display: none">
+                <h3 style="text-align: center; color: white">Coming soon</h3>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.payclick').click(function() {
+                        $('.payinfo').slideToggle("fast");
+                    });
+                });
+            </script>
+        </div>
+    </div>
 	<div class="footer">
 		<div class="container">
 			<div class="footer-text">
-				<p>TEMPLATE BY <a href="http://w3layouts.com/"> W3LAYOUTS</a></p>
-			</div>
-		</div>
-		 <script type="text/javascript">
+                <div id="contactus">
+
+                    <div id="furthercont">
+                        <span>For more information contact</span><br>
+                    </div>
+
+                    <div id="email">
+                        <span id="ab">For further queries drop us a mail at</span><br>
+                        <img src="images/email.png"><span>iitgmun@techniche.org</span>
+                    </div><br>
+                    <div id="furthercont1">
+                        <span>Name</span><span>+91-xx</span><br>
+                        <span>Name</span><span>+91-xx</span><br>
+                        <span>Name</span><span>+91-xx</span>
+                    </div>
+
+
+                    <div id="credits">
+                        <div id="logo">
+                            <img src="images/munlogo-white.png">
+                            </br>
+                        </div>
+                    </div>
+                </div>
+                 <div>
+
+                </div>
+              </div>
+        </div>
+        <div style="margin: auto"> <span style="font-size:18px; text-align: center; color: white;">Developed by <strong>Kunaal Jain</strong></span></div>
+
+        <script type="text/javascript">
 									$(document).ready(function() {
 										/*
 										var defaults = {
