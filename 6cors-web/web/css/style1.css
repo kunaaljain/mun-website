@@ -71,6 +71,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	width:50%;
 }
 .about {
+	padding: 1em 0 3em;
+}
+.about-team {
+	padding: 5em 0 3em;
+}
+.about-mun-diaries {
 	padding: 5em 0 3em;
 }
 .left-about{

@@ -92,6 +92,7 @@ section {
 }
 
 .toolbar {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -99,6 +100,15 @@ section {
     background-color: transparent;
     line-height: 68px;
     border-top: 2px solid #056f00;
+}
+
+.shownow {
+    display: block;
+}
+
+#open-sb {
+    height: 70px;
+    margin-top: 250px;
 }
 
 .menu-button {

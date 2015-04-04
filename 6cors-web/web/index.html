@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>6cors a Corporate Category Flat Bootstarp responsive Website Template| HOME :: w3layouts</title>
+<title>IIT Guwahati| MUN</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="6cors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -37,9 +37,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="text/javascript" src="js/notify.min.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
-                $.notify("Committees Coming soon","success");
-                $.notify("Website Launched","success");
-                $.notify("Application opening soon","success");
+                $( "#shownotice" ).click(function() {
+                    console.log("yes");
+                    $.notify("Committees Coming soon","success");
+                    $.notify("Website Launched","success");
+                    $.notify("Application opening soon","success");
+                });
 			$(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
@@ -99,18 +102,27 @@ var marker = new google.maps.Marker({
     <!--/js-->
 </head>
 <body>
+    <!--start-fb-api-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--end-fb-api-->
 	<!--start-banner-->
 	<div class="header" id="home">
             <div class="container">
                 <div class="logo">
-                    <img class="imglogo" src="images/logo.png">
+                    <img class="imglogo" src="images/page-logo.png">
                 </div>
                 <div class="social-icons">
                     <li><a href="https://www.facebook.com/iitguwahatimun"><i class="facebook"> </i></a></li>
-                    <li><a href="https://twitter.com/technicheiitg"><i class="twitter"> </i></a></li>
-                    <li><a href="#"><i class="googlepluse"> </i></a></li>
+                    <li><a href="https://twitter.com/iitgmun"><i class="twitter"> </i></a></li>
                 </div>
-                <h1>" Coming <span>back</span> soon "</h1>
+                <!--<h1>" Coming <span>back</span> soon "</h1>-->
                 <ul id="countdown">
                     <span class="timer">DAY</span>
                     <span class="timer-1">HOURS</span>
@@ -123,17 +135,26 @@ var marker = new google.maps.Marker({
 	<div class="fixed-header">
 	   <div class="h_menu4"><!-- start h_menu4 -->
 	   	<div class="header-left">
-	   		<div class="header-left-logo">
-	   			<a href="index.html"><img src="images/logo-01-01.png" alt=""/></a>
-	   			</div>
+
 	   			<div class="header-left-text">
 					<a class="toggleMenu" href="#"><img src="images/menu-icon.png" alt=""/></a>
-					<ul class="nav">
-					    <li><a href="#about" class="scroll">ABOUT</a></li>
-                        <li><a href="#work" class="scroll">TEAM</a></li>
-						<li><a href="#services" class="scroll">RESOURCES</a></li>
-                        <li><a href="#clients" class="scroll">SPONSORS</a></li>
-                        <li><a href="#contact" class="scroll">CONTACT</a></li>
+                    <ul class="nav">
+                        <li><a href="index.html">HOME</li>
+                        <li><a href="about.html">ABOUT</li>
+                        <li><a href="team.html">TEAM</a></li>
+                        <li><a href="">APPLY</li>
+                        <li>
+                            <a href="#">COMMITTEES</a>
+                            <ul>
+                                 <li><a href="comm1.html">IAEA</a></li>
+                                 <li><a href="comm2.html">SC</a></li>
+                                 <li><a href="comm3.html">ECA</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="mun-diaries.html">MUN DIARIES</a></li>
+                        <li><a href="archives.html">ARCHIVES</li>
+                        <li><a href="sponsors.html">PARTNERS</li>
+                        <li><a href="contact.html">CONTACT</a></li>
                     </ul>
 				</div>
 				<div class="clearfix"></div>
@@ -174,9 +195,13 @@ var marker = new google.maps.Marker({
 		</div>
 		<div class="header-right">
 			<ul>
-				<li><a href="https://www.facebook.com/iitguwahatimun"><span class="fb"> </span></a></li>
-				<li><a href="https://twitter.com/technicheiitg"><span class="twit"> </span></a></li>
-				<li><a href="#"><span class="yt"> </span></a></li>
+                <li><a href="#"><span class="notify" id="shownotice"> </span></a></li>
+                <li><a href="https://www.facebook.com/iitguwahatimun"><span class="fb"> </span></a></li>
+                <li><a href="https://www.youtube.com/user/technicheiitg"><span class="yt"> </span></a></li>
+                <li><a href="http://iitgmuntechniche.wordpress.com/"><span class="wp"> </span></a></li>
+                <script type="text/javascript">
+
+                </script>
 			</ul>
             <img id="munlogopic" src="images/munfinal02.png">
 		</div>
@@ -187,8 +212,22 @@ var marker = new google.maps.Marker({
 	</div>
 	<!--end-banner-->
     <div class="toolbar">
-        <img id="open-sb" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/262px-Question_book-new.svg.png">
-        <div id="open-sb" class="menu-button menu-left"></div>
+        <img id="open-sb" src="images/DID-U-KNOW.png">
+        <!--<div id="open-sb" class="menu-button menu-left"></div>-->
+        <script>
+            $(document).ready(function() {
+                var navoffeset=$(".header-home").offset().top;
+                $(window).scroll(function(){
+                    var scrollpos=$(window).scrollTop();
+                    if(scrollpos >=navoffeset){
+                        $(".toolbar").addClass("shownow");
+                    }else{
+                        $(".toolbar").removeClass("shownow");
+                    }
+                });
+
+            });
+        </script>
     </div>
 
     <section class="sidebar">
@@ -231,243 +270,64 @@ var marker = new google.maps.Marker({
         });
     </script>
     <!--start-about-->
-    <div class="about" id="about">
+    <div class="about" id="home-main">
         <div class="container">
             <div class="about-main">
-                <h3>ABOUT US</h3>
+                <h3>Secretary General's Message</h3>
                 <div class="about-top">
                     <p>
-                        IIT Guwahati MUN, the Model United Nations conference extraordinaire, is back
-
-                        with renewed dynamism and exemplary content. We firmly believe in providing a
-
-                        definite exposure of the scenario of world politics to young people, who will go on
-
-                        to become national leaders and policy makers of the future. Delegates from all
-
-                        over the nation come to debate upon crucial topics, and to constitute a solution
-
-                        through eloquent debate, lobbying and voting. These help in tackling the real
-
-                        world problems in a positive way and simultaneously help the participants imbibe
-
-                        the qualities of leadership and team work. They also get a splendid opportunity to
-
-                        master the arts of articulation, networking, relation building, conceptualization
-
-                        and healthy debating which go a long way in life. The panoramic and
-
-                        comprehensive background guides give you a taste of what we have in store.
-
-                        From carefully crafted agendas to an accomplished executive board and
-
-                        passionate debating to elegant social nights, IITG MUN has it all. For first timers
-
-                        and veterans of MUNing alike, we promise you a memorable date with diplomacy.                    </p>
+                       Dear Delegates and Faculty Advisors,<br>
+                    It is with utmost pleasure and honour that I welcome you to the fourth edition of the IIT-Guwahati Model United Nations Conference. From Friday, September 4th to Sunday, September 6th 2015, delegates from every nook and corner of the country will be convening in Guwahati, Assam for another round of refreshing debate and impassioned pleas by representatives. Hosted by the literary society of IIT Guwahati, the Fall edition promises to surpass the standards of excellence established by its preceding session.
+                    </p>
+                    <p>
+                    After an immensely successful third session, I, along with an extremely passionate Secretariat, am delighted to bring forth the legacy that we are trying to imbibe in IIT-Guwahati MUN. We want to focus on innovations in MUN-ing and enhance the overall delegate experience. We are excited to present three distinct committees with the most exceptional crisis committees, all of which will test delegates’ abilities to address and expand their global-view. Our exceptionally talented chairs and staff will steer the delegates through their exploration of various range of issues. This year’s conference aims at creating an entirely new IIT-Guwahati MUN experience, which begins before the delegates step into the conference. 
+                    </p>
+                    <p>
+                    Our vision is to create a platform for the future leaders of the world to grace and shine upon! We at IIT-Guwahati MUN very firmly believe that the MUN Conferences are not just an exploration of world-views but also a platform to formulate one’s perception and ideology. Part of what makes this experience unforgettable are the socials and press- conferences organised to enhance the informal delegate interactions. To complete the delegate experience, we have 4 Pro-Nites during Techniche to provide the delegates with an opportunity to relax and simmer down.
+                    </p>
+                    <p>
+                    The Secretariat is hard at work planning an invaluable experience and an unforgettable conference. We want to watch IIT-Guwahati MUN prosper and we are committed to preserving the legacy of the excellent conference we had in the previous edition. At the same time we are equally excited to implement some new and exciting ideas as well as increase the number of councils. As we strive to ensure satisfaction, we would love to hear your concerns or comments. If you have any questions or concerns at any point, please don't hesitate to contact me by email - aditya.jain3645@gmail.com. I look forward to welcoming you in the Fall edition of IIT-Guwahati Model United Nations, Techniche 2015. 
+                    </p>
+                    <p>
+                    Best Regards,<br> 
+                    Aditya Jain<br>
+                    Secretary General<br>
+                    IIT Guwahati Model United Nations Conference<br>
+                    </p>
                     <div class="clearfix"></div>
                 </div>
             </div>
         </div>
+  <!--  </div>
+    &lt;!&ndash;end-about&ndash;&gt;
+	&lt;!&ndash;start-what&ndash;&gt;
+    &lt;!&ndash;start-about&ndash;&gt;
+    <div class="mun-wrapper">-->
+<br><br> <br>       <hr style="width: 90%; align-content: center; text-align: center; margin: auto">
+        <div class="container">
+            <div class="mun-wrapper-main">
+                <h3>MUN DIARIES</h3>
+                <div class="mun-container">
+                <div class="mun-wrapper-video-left" style="max-width: 50%">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/26cueOFs84U" frameborder="0" allowfullscreen></iframe>
+                    <h3 style="margin-bottom: 2%">Promo</h3>
+                    <div class="mun-diaries-video-footer"><p>IIT Guwahati Model United Nations, Techniche presents to you, a one of its kind initiative, "MUN DIARIES"! .Tell us about your experiences as a delegate or your expectations as a potential delegate among other things! Lets hear what you got!
+                        Send your entries to iitgmun@techniche.org. Read the rules here - goo.gl/F6ekVl</p></div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="mun-wrapper-fb-right">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/iitguwahatimun" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>            </div>
+                    </div>
+        </div>
     </div>
     <!--end-about-->
-	<!--start-what-->
 
-    <!--start-project-->
-    <div class="project" id="services">
-        <div class="col-md-3 project-left">
-            <img src="images/project-1.jpg" alt=""/>
-            <span> </span>
-            <div class="project-bottom">
-                <h4>FIRST PROJECT</h4>
-                <label> </label>
-                <p>Category 1,Category 2</p>
-                <div class="p-btn">
-                    <a href="#">VIEW PROJECT</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 project-left">
-            <img src="images/project-2.jpg" alt=""/>
-            <span> </span>
-            <div class="project-bottom">
-                <h4>SECOND PROJECT</h4>
-                <label> </label>
-                <p>Category 1,Category 2</p>
-                <div class="p-btn">
-                    <a href="#">VIEW PROJECT</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 project-left">
-            <img src="images/project-3.jpg" alt=""/>
-            <span> </span>
-            <div class="project-bottom">
-                <h4>THIRD PROJECT</h4>
-                <label> </label>
-                <p>Category 1,Category 2</p>
-                <div class="p-btn">
-                    <a href="#">VIEW PROJECT</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 project-left">
-            <img src="images/project-4.jpg" alt=""/>
-            <span> </span>
-            <div class="project-bottom">
-                <h4>FOURTH PROJECT</h4>
-                <label> </label>
-                <p>Category 1,Category 2</p>
-                <div class="p-btn">
-                    <a href="#">VIEW PROJECT</a>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <!--end-project-->
-	<!--start-clients-->
-	<div class="clients" id="clients">
-		<div class="container">
-			<div class="clients-mian">
-				<h3>Our Happy Clients</h3>
-				<div  id="top" class="callbacks_container">
-			      	<ul class="rslides" id="slider4">
-			        <li>
-						<div class="clients-top">
-							<div class="clients-left">
-								<img src="images/clients-1.png" alt=""/>
-								<img src="images/clients-1.png" alt=""/>
-							</div>
-							<div class="clients-left">
-								<img src="images/clients-2.png" alt=""/>
-								<img src="images/clients-2.png" alt=""/>
-							</div>
-							<div class="clients-left">
-								<img src="images/clients-3.png" alt=""/>
-								<img src="images/clients-3.png" alt=""/>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</li>
-					<li>
-						<div class="clients-top">
-							<div class="clients-left">
-								<img src="images/clients-2.png" alt=""/>
-								<img src="images/clients-2.png" alt=""/>
-							</div>
-							<div class="clients-left">
-								<img src="images/clients-3.png" alt=""/>
-								<img src="images/clients-3.png" alt=""/>
-							</div>
-							<div class="clients-left">
-								<img src="images/clients-1.png" alt=""/>
-								<img src="images/clients-1.png" alt=""/>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</li>
-					<li>
-						<div class="clients-top">
-							<div class="clients-left">
-								<img src="images/clients-3.png" alt=""/>
-								<img src="images/clients-3.png" alt=""/>
-							</div>
-							<div class="clients-left">
-								<img src="images/clients-1.png" alt=""/>
-								<img src="images/clients-1.png" alt=""/>
-							</div>
-							<div class="clients-left">
-								<img src="images/clients-2.png" alt=""/>
-								<img src="images/clients-2.png" alt=""/>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</li>
-			      </ul>
-			    </div>
-			    <div class="clearfix"> </div>
-			</div>
-			
-		</div>
-	</div>
-	<!--end-clients-->
-	<!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager: true,
-			        nav: true,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-			  <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider5").responsiveSlides({
-			        auto: true,
-			        pager: true,
-			        nav: false,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-			<!--End-slider-script-->
-	<!--start-blog-->
-	
-	<!--end-blog-->
-	<!--start-contact-->
-	<div class="touch" id="contact">
-		<div class="container">
-			<div class="touch-main">
-				<h3>Get In Touch</h3>
-				<div class="touch-top">
-					<div class="col-md-6 touch-left">
-						<p>DROP US A LINE</p>
-						<form>
-							<input type="text" class="active" placeholder="Name" required="">
-							<input type="text" placeholder="Email" required="">
-							<input type="text" placeholder="Subject" required="">
-							<textarea placeholder="Message" required=""></textarea>
-							<div class="sub-button">
-								<input type="submit" value="SEND IT">
-							</div>
-						</form>	
-					</div>
-					<div class="col-md-6 touch-right">
-						<div id="map-canvas">
-						</div>
 
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--end-contact-->
+
+
 	<!--start-footer-->
-    <div class="footer-payment" style="background-color: rgb(51,51,51); padding-top: 15px; padding-bottom: 15px">
+    <!--<div class="footer-payment" style="background-color: rgb(51,51,51); padding-top: 15px; padding-bottom: 15px">
         <div class="container">
             <div class="payclick">
                 <h3 style="text-align: center; color: white">Click for Payment Details</h3>
@@ -483,7 +343,7 @@ var marker = new google.maps.Marker({
                 });
             </script>
         </div>
-    </div>
+    </div>-->
 	<div class="footer">
 		<div class="container">
 			<div class="footer-text">
@@ -498,9 +358,9 @@ var marker = new google.maps.Marker({
                         <img src="images/email.png"><span>iitgmun@techniche.org</span>
                     </div><br>
                     <div id="furthercont1">
-                        <span>Name</span><span>+91-xx</span><br>
-                        <span>Name</span><span>+91-xx</span><br>
-                        <span>Name</span><span>+91-xx</span>
+                        <span>Aditya Jain</span><span>+91-9706711644</span><br>
+                        <span>Milind Singh</span><span>+91-8011026703</span><br>
+                        <span>Aditi Gupta</span><span>+91-8011022294</span>
                     </div>
 
 

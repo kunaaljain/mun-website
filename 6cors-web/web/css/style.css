@@ -49,7 +49,8 @@ body a{
 .nav {
     list-style: none;
      *zoom: 1;
-     margin-top: 27px;
+     
+    /* margin-top: 27px; */
 }
 .nav:before,
 .nav:after {
@@ -95,10 +96,12 @@ body a{
 }
 .nav > li > a{
 	color:#383834;
+	padding-top: 6px;
+	padding-bottom: 23px;
 }
 .nav > li.hover > ul {
-    left:-1px;
-    top:38px;
+    left:auto;
+    top: 75px;
 }
 .nav li li.hover ul {
     left: 100%;
@@ -129,6 +132,8 @@ body a{
 }
 .nav li li {
 	border-top:none;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 .nav li li:hover{
 	border-top:none;
@@ -139,6 +144,10 @@ body a{
 	border-bottom: 1px solid #e8ebf1;
 	border-left: 1px solid #e8ebf1;
 	border-right: 1px solid #e8ebf1;
+	color: black;
+}
+.nav li li a:hover{
+	color: red;
 }
 .nav li li a:hover{
 	-webkit-transform: rotateY(15deg);
@@ -239,11 +248,11 @@ color:#000;
 	}
 }
 .header-left {
-	width: 70%;
+	width: 80%;
 	float: left;
 }
 .header-right{
-	width: 30%;
+	width: 20%;
 	float: right;
 }
 .header-right ul{
@@ -257,7 +266,8 @@ color:#000;
 	margin-right: 5px;
 }
 .header-right ul li span,.about-left ul li span{
-	background:url(../images/social-sprit.png) no-repeat;
+	background:url(../images/social-sprint-1.png) no-repeat;
+	background-size: 170px 76px;
 	width:34px;
 	height:38px;
 	display:block;
@@ -268,29 +278,38 @@ color:#000;
 	-ms-transition:0.5s all;
 }
 .header-right ul li span.fb,.about-left ul li span.fb{
-	background-position:0px 0px;
+	background-position:2px 0px;
 }
-.header-right ul li span.twit,.about-left ul li span.twit{
+.header-right ul li span.notify,.about-left ul li span.twit{
 	background-position:-34px 0px;
 }
-.header-right ul li span.drbl,.about-left ul li span.drbl{
+.header-right ul li span.g+,.about-left ul li span.drbl{
 	background-position:-68px 0px;
 }
-.header-right ul li span.yt{
-	background-position:-102px 0px;
+.header-right ul li span.yt,.about-left ul li span.drbl{
+	background-position:-101px 0px;
 }
+.header-right ul li span.wp,.about-left ul li span.drbl{
+	background-position:-136px 0px;
+}
+
 .header-right ul li span.fb:hover,.about-left ul li span.fb:hover{
-	background-position:0px -38px;
+	background-position:2px -38px;
 }
-.header-right ul li span.twit:hover,.about-left ul li span.twit:hover{
+.header-right ul li span.notify:hover,.about-left ul li span.twit:hover{
 	background-position:-34px -38px;
 }
-.header-right ul li span.drbl:hover,.about-left ul li span.drbl:hover{
+.header-right ul li span.g+:hover,.about-left ul li span.drbl:hover{
 	background-position:-68px -38px;
 }
-.header-right ul li span.yt:hover{
-	background-position:-102px -38px;
+.header-right ul li span.yt:hover,.about-left ul li span.drbl{
+	background-position:-101px -38px;
 }
+.header-right ul li span.wp:hover,.about-left ul li span.drbl{
+	background-position:-136px -38px;
+}
+
+
 .header-top{
 	padding-top: 4%;
 }
@@ -317,8 +336,8 @@ color:#000;
 	text-align: right;
 }
 .header-left-text {
-	width: 77%;
-	float: right;
+	/* width: 77%; */
+	/* float: right; */
 	text-align: center;
 }
 #munlogopic {
@@ -334,7 +353,17 @@ color:#000;
 	margin-top: 5%;
 }
 .about{
-	background:url(../images/about-banner.jpg) no-repeat;
+	background:url(../back/ABOUT_WHAT_IS_UN.jpg) no-repeat;
+	background-size:100% 100%;
+	min-height: 720px;
+}
+.about-team{
+	background:url(../back/TEAM_main.jpg) no-repeat;
+	background-size:100% 100%;
+	min-height: 720px;
+}
+.about-mun-diaries{
+	background:url(../back/MUN_DIARIES_main.JPG) no-repeat;
 	background-size:100% 100%;
 	min-height: 720px;
 }
@@ -388,6 +417,103 @@ color:#000;
         margin: 0;*/
     }
 /*--end-about--*/
+    /*start-munwrapper*/
+    .mun-wrapper-main {
+        text-align:center;
+        margin-top: 10%;
+    }
+    .mun-wrapper{
+        background:url(../images/about-banner.jpg) no-repeat;
+        background-size:100% 100%;
+        min-height: 720px;
+    }
+    .mun-wrapper-left h4{
+        color:#fff;
+        font-size:2.3em;
+        font-weight:300;
+        margin: 18px 0px 10px 0px;
+    }
+    .mun-wrapper-left h5{
+        color:#fff;
+        font-size:1em;
+        font-weight:700;
+        margin:0;
+    }
+    .mun-wrapper-left ul{
+        padding:0;
+        margin-top:1.2em;
+    }
+    .mun-wrapper-left ul li{
+        list-style:none;
+        display:inline-block;
+        margin-right: 5px;
+    }
+    .mun-wrapper-left ul li span.sap{
+        background-position:-136px 0px;
+    }
+    .mun-wrapper-left ul li span.sap:hover{
+        background-position:-136px -38px;
+    }
+    .mun-wrapper-top{
+        background:#F0EFDD;
+        padding: 1em 0px;
+        margin-top: 3%;
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+    .mun-wrapper-main h3 {
+        color: #F0EFDD;
+        font-size: 1.8em;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .mun-wrapper-main p {
+        text-align: justify;
+        color: #000;
+        /*font-size: 1.8em;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin: 0;*/
+    
+        /* opacity: 1; */
+        collo: white;
+}
+
+    .mun-wrapper-video-left {
+        float: left;
+        margin-top: 5%;
+        margin-left: 3%;
+}
+    .mun-wrapper-fb-right {
+        background: #EBEAD9;
+        float: right;
+        margin-top: 9%;
+        margin-right: 7%;
+    }
+
+    .mun-diaries-video-footer {
+        background:#F0EFDD;
+        /* padding: 1em 0px; */
+        margin-top: 1%;
+        padding-left: 3%;
+        padding-right: 2.5em;
+        margin-bottom: 5%;
+    
+        padding-top: 2em;
+        padding-bottom: 1em;
+        /*opacity: .15;*/
+        /* color: white; */
+
+}
+
+    .mun-container{
+    	background: #F0EFDD;
+    	margin-top: 3%;
+    
+    	margin-bottom: 5%;
+}
+    /*end-munwrapper*/
 /*--start-what--*/
 .what {
 	background: #272727;
@@ -2598,3 +2724,58 @@ ul.callbacks_tabs.callbacks2_tabs {
         width: 100%;
         height: 100%;
     }
+
+    .hiddendiv{
+        display: none;
+    }
+
+	hr.style-four {
+		border: 0;
+		height: 0;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
+    .img-wrapper > img{
+        height: 200px;
+    }
+    .img-wrapper{
+        float:left;
+        margin-right: 20px;
+    }
+
+    .person-wrapper{
+        float:none;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .single-img-wrapper > img{
+        height: 150px;
+    }
+
+    .single-img-wrapper{
+        border: 1px solid;
+        padding: 3px;
+        text-align: center;
+        overflow: hidden;
+        background-color: #616DAB;
+        border-color: #4E5B98;
+    }
+
+    .single-person-wrapper{
+        display: inline-flex;
+        /*padding-right: 5px;*/
+        margin: 5px;
+    }
+
+    .single-person-containter{
+        margin: auto;
+        text-align: center;
+    }
+
+    #home-main{
+        background: url(../back/HOME_main.jpg) no-repeat;
+        background-repeat: no-repeat;
+    }
+
