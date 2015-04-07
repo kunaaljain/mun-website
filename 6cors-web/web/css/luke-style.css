@@ -102,8 +102,12 @@ span.countDays {
 	border: 3px solid#fff;
 	color: #fff;
 	border-radius: 100%;
-	padding: 38px;
+	/* padding: 28px; */
 	margin-right: 0px;
+	padding-top: 41px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 39px;
 }
 span.countHours {
 	border: 3px solid#fff;
@@ -130,28 +134,28 @@ span.countSeconds{
 span.timer {
 	position: absolute;
 	top: 84px;
-	left: 72px;
+	left: 68px;
 	font-size: 16px;
 	color: #fff;
 }
 span.timer-1 {
 	position: absolute;
 	top: 85px;
-	left: 229px;
+	left: 238px;
 	font-size: 16px;
 	color: #fff;
 }
 span.timer-2 {
 	position: absolute;
 	top: 87px;
-	left: 392px;
+	left: 399px;
 	font-size: 16px;
 	color: #fff;
 }
 span.timer-3 {
 	position: absolute;
 	top: 86px;
-	left: 561px;
+	left: 559px;
 	font-size: 16px;
 	color: #fff;
 }

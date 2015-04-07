@@ -2,68 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0502635-1520-4b81-878f-832fec2da930" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/archives.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/comm2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/comm3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/committees.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/mun-diaries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/sponsors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6cors-web/web/team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/1.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/10.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/11.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/12.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/13.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/14.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/2.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/3.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/4.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/5.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/6.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/7.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/8.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/img/9.jpg" afterPath="$PROJECT_DIR$/6cors-web/web/img/9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/bootstrap.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/css/bootstrap.css" afterPath="$PROJECT_DIR$/one-luke/web/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/css/bootstrap.css" afterPath="$PROJECT_DIR$/spirit8/web/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/easing.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/easing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/js/easing.js" afterPath="$PROJECT_DIR$/spirit8/web/js/easing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/about.html" afterPath="$PROJECT_DIR$/6cors-web/web/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/archives.html" afterPath="$PROJECT_DIR$/6cors-web/web/archives.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/comm1.html" afterPath="$PROJECT_DIR$/6cors-web/web/comm1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/comm2.html" afterPath="$PROJECT_DIR$/6cors-web/web/comm2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/comm3.html" afterPath="$PROJECT_DIR$/6cors-web/web/comm3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/contact.html" afterPath="$PROJECT_DIR$/6cors-web/web/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/index.html" afterPath="$PROJECT_DIR$/6cors-web/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/init.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/js/init.js" afterPath="$PROJECT_DIR$/one-luke/web/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/jquery-1.11.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/jquery.countdown.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/jquery.countdown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/jquery.flexisel.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/jquery.flexisel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/js/jquery.flexisel.js" afterPath="$PROJECT_DIR$/one-luke/web/js/jquery.flexisel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/jquery.min.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/js/jquery.min.js" afterPath="$PROJECT_DIR$/one-luke/web/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/js/jquery.min.js" afterPath="$PROJECT_DIR$/spirit8/web/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/js/jquery.mixitup.min.js" afterPath="$PROJECT_DIR$/spirit8/web/js/jquery.mixitup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/jquery.countdown.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/jquery.countdown.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/luke-style.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/luke-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/main.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/move-top.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/move-top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/js/move-top.js" afterPath="$PROJECT_DIR$/spirit8/web/js/move-top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/munproj.iml" afterPath="$PROJECT_DIR$/.idea/munproj.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/nav.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/owl.carousel.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/css/owl.carousel.css" afterPath="$PROJECT_DIR$/one-luke/web/css/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/css/owl.carousel.css" afterPath="$PROJECT_DIR$/spirit8/web/css/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/owl.carousel.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/js/owl.carousel.js" afterPath="$PROJECT_DIR$/one-luke/web/js/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spirit8/web/js/owl.carousel.js" afterPath="$PROJECT_DIR$/spirit8/web/js/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/responsiveslides.min.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/responsiveslides.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/js/script.js" afterPath="$PROJECT_DIR$/6cors-web/web/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/mun-diaries.html" afterPath="$PROJECT_DIR$/6cors-web/web/mun-diaries.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/sponsors.html" afterPath="$PROJECT_DIR$/6cors-web/web/sponsors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/style.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/css/style1.css" afterPath="$PROJECT_DIR$/6cors-web/web/css/style1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6cors-web/web/team.html" afterPath="$PROJECT_DIR$/6cors-web/web/team.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one-luke/web/css/x.css" afterPath="$PROJECT_DIR$/one-luke/web/css/x.css" />
     </list>
     <ignored path="munproj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,10 +41,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.784336">
-              <caret line="239" column="31" selection-start-line="239" selection-start-column="31" selection-end-line="239" selection-end-column="31" />
+            <state vertical-scroll-proportion="-4.15625">
+              <caret line="214" column="54" selection-start-line="214" selection-start-column="54" selection-end-line="214" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#hr#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -100,13 +56,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6cors-web/web/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.8979592">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mun-diaries.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/mun-diaries.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
+            <state vertical-scroll-proportion="-20.083334">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -119,8 +89,8 @@
       <file leaf-file-name="archives.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/archives.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+            <state vertical-scroll-proportion="-20.083334">
+              <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -134,10 +104,14 @@
       <file leaf-file-name="comm2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/comm2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="193" column="34" selection-start-line="193" selection-start-column="34" selection-end-line="193" selection-end-column="34" />
+            <state vertical-scroll-proportion="-20.083334">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -150,10 +124,29 @@
       <file leaf-file-name="comm3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/comm3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="188" column="57" selection-start-line="188" selection-start-column="57" selection-end-line="188" selection-end-column="57" />
+            <state vertical-scroll-proportion="-20.083334">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6cors-web/web/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.083334">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding>
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -166,10 +159,14 @@
       <file leaf-file-name="comm1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/comm1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="257" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="276" selection-end-column="7" />
+            <state vertical-scroll-proportion="-13.833333">
+              <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -182,47 +179,14 @@
       <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6cors-web/web/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="357" column="6" selection-start-line="357" selection-start-column="6" selection-end-line="357" selection-end-column="6" />
+            <state vertical-scroll-proportion="-20.083334">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6cors-web/web/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="291" column="54" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#h3#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6cors-web/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2731" column="17" selection-start-line="2731" selection-start-column="17" selection-end-line="2731" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -275,14 +239,14 @@
         <option value="$PROJECT_DIR$/6cors-web/sponsors.html" />
         <option value="$PROJECT_DIR$/ScatteredPolaroidsGallery/index.html" />
         <option value="$PROJECT_DIR$/6cors-web/web/css/style.css" />
-        <option value="$PROJECT_DIR$/6cors-web/web/contact.html" />
-        <option value="$PROJECT_DIR$/6cors-web/web/comm1.html" />
-        <option value="$PROJECT_DIR$/6cors-web/web/team.html" />
         <option value="$PROJECT_DIR$/6cors-web/web/about.html" />
+        <option value="$PROJECT_DIR$/6cors-web/web/mun-diaries.html" />
         <option value="$PROJECT_DIR$/6cors-web/web/archives.html" />
         <option value="$PROJECT_DIR$/6cors-web/web/comm2.html" />
         <option value="$PROJECT_DIR$/6cors-web/web/comm3.html" />
-        <option value="$PROJECT_DIR$/6cors-web/web/mun-diaries.html" />
+        <option value="$PROJECT_DIR$/6cors-web/web/contact.html" />
+        <option value="$PROJECT_DIR$/6cors-web/web/comm1.html" />
+        <option value="$PROJECT_DIR$/6cors-web/web/team.html" />
         <option value="$PROJECT_DIR$/6cors-web/web/index.html" />
       </list>
     </option>
@@ -295,9 +259,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1365" />
-    <option name="width" value="1922" />
-    <option name="height" value="1081" />
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1368" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -322,8 +287,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -360,30 +323,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="munproj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mun-website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6cors-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,10 +444,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="0" width="1922" height="1081" extended-state="6" />
+    <frame x="-1" y="27" width="1368" height="712" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14722955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14615959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -538,6 +481,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bootstrap-sidebar" />
+      <path value="$PROJECT_DIR$/simple-sidebar" />
+    </ignored-roots>
     <MESSAGE value="New branch" />
     <MESSAGE value="Added Hover to work on" />
     <MESSAGE value="periodoic" />
@@ -546,7 +493,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="periodic" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -563,6 +512,8 @@
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -612,6 +563,8 @@
           <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -661,6 +614,8 @@
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -715,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15856236">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,131 +800,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="257" column="6" selection-start-line="257" selection-start-column="6" selection-end-line="257" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="357" column="6" selection-start-line="357" selection-start-column="6" selection-end-line="357" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="291" column="54" selection-start-line="291" selection-start-column="54" selection-end-line="291" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6cors-web/web/child.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/archives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/comm1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="257" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="276" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/comm2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="193" column="34" selection-start-line="193" selection-start-column="34" selection-end-line="193" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/comm3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="188" column="57" selection-start-line="188" selection-start-column="57" selection-end-line="188" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6cors-web/web/mun-diaries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6cors-web/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2731" column="17" selection-start-line="2731" selection-start-column="17" selection-end-line="2731" selection-end-column="17" />
+          <caret line="2734" column="17" selection-start-line="2734" selection-start-column="17" selection-end-line="2734" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -984,12 +821,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/mun-diaries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/archives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334">
+          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/comm2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/comm3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/comm1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.833333">
+          <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.083334">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6cors-web/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8979592">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6cors-web/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.784336">
-          <caret line="239" column="31" selection-start-line="239" selection-start-column="31" selection-end-line="239" selection-end-column="31" />
+        <state vertical-scroll-proportion="-4.15625">
+          <caret line="214" column="54" selection-start-line="214" selection-start-column="54" selection-end-line="214" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />

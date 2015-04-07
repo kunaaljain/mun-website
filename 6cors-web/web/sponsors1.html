@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--start-clients-->
+<div class="clients" id="clients">
+    <div class="container">
+        <div class="clients-mian">
+            <h3>Our Happy Clients</h3>
+            <div  id="top" class="callbacks_container">
+                <ul class="rslides" id="slider4">
+                    <li>
+                        <div class="clients-top">
+                            <div class="clients-left">
+                                <img src="images/clients-1.png" alt=""/>
+                                <img src="images/clients-1.png" alt=""/>
+                            </div>
+                            <div class="clients-left">
+                                <img src="images/clients-2.png" alt=""/>
+                                <img src="images/clients-2.png" alt=""/>
+                            </div>
+                            <div class="clients-left">
+                                <img src="images/clients-3.png" alt=""/>
+                                <img src="images/clients-3.png" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clients-top">
+                            <div class="clients-left">
+                                <img src="images/clients-2.png" alt=""/>
+                                <img src="images/clients-2.png" alt=""/>
+                            </div>
+                            <div class="clients-left">
+                                <img src="images/clients-3.png" alt=""/>
+                                <img src="images/clients-3.png" alt=""/>
+                            </div>
+                            <div class="clients-left">
+                                <img src="images/clients-1.png" alt=""/>
+                                <img src="images/clients-1.png" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clients-top">
+                            <div class="clients-left">
+                                <img src="images/clients-3.png" alt=""/>
+                                <img src="images/clients-3.png" alt=""/>
+                            </div>
+                            <div class="clients-left">
+                                <img src="images/clients-1.png" alt=""/>
+                                <img src="images/clients-1.png" alt=""/>
+                            </div>
+                            <div class="clients-left">
+                                <img src="images/clients-2.png" alt=""/>
+                                <img src="images/clients-2.png" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+
+    </div>
+</div>
+<!--end-clients-->
+<!--Slider-Starts-Here-->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider5").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: false,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<!--End-slider-script-->
+<!--start-blog-->
+
+<!--end-blog-->
+</body>
+</html>

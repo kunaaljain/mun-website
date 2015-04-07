@@ -1,121 +1,402 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+<head>
+<title>IIT Guwahati| MUN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="6cors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/luke-style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/jquery.countdown.css" />
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <!-- tiles style -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/set2.css" />
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- //tiles-style -->
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/notify.min.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+                $( "#shownotice" ).click(function() {
+                    console.log("yes");
+                    $.notify("Committees Coming soon","success");
+                    $.notify("Website Launched","success");
+                    $.notify("Application opening soon","success");
+                });
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Roboto:400,100,300,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script src="components/simple-sidebar/jquery.simplesidebar.js"></script>
+
+    <script type="text/javascript">
+     function initialize() {
+    var mapCanvas = document.getElementById('map-canvas');
+    var mapOptions = {
+      center: new google.maps.LatLng(26.191196,91.6924767),
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+     }
+     var map = new google.maps.Map(mapCanvas, mapOptions);
+     }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+       /*---
+               var latlngPos = new google.maps.LatLng(51.515252, -0.189852);
+                var myOptions = {
+   zoom: 10,
+   center: latlngPos,
+   mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+     var map = new google.maps.Map(document.getElementById("map"), myOptions);
+     var markerPos = new google.maps.LatLng(51.515252, -0.189852);
+
+
+var marker = new google.maps.Marker({
+   position: markerPos,
+   map: map,
+   title: "PC Pro Offices"
+});
+     
+
+       */
+    </script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!--/js-->
 </head>
 <body>
-<!--start-clients-->
-<div class="clients" id="clients">
-    <div class="container">
-        <div class="clients-mian">
-            <h3>Our Happy Clients</h3>
-            <div  id="top" class="callbacks_container">
-                <ul class="rslides" id="slider4">
-                    <li>
-                        <div class="clients-top">
-                            <div class="clients-left">
-                                <img src="images/clients-1.png" alt=""/>
-                                <img src="images/clients-1.png" alt=""/>
-                            </div>
-                            <div class="clients-left">
-                                <img src="images/clients-2.png" alt=""/>
-                                <img src="images/clients-2.png" alt=""/>
-                            </div>
-                            <div class="clients-left">
-                                <img src="images/clients-3.png" alt=""/>
-                                <img src="images/clients-3.png" alt=""/>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="clients-top">
-                            <div class="clients-left">
-                                <img src="images/clients-2.png" alt=""/>
-                                <img src="images/clients-2.png" alt=""/>
-                            </div>
-                            <div class="clients-left">
-                                <img src="images/clients-3.png" alt=""/>
-                                <img src="images/clients-3.png" alt=""/>
-                            </div>
-                            <div class="clients-left">
-                                <img src="images/clients-1.png" alt=""/>
-                                <img src="images/clients-1.png" alt=""/>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="clients-top">
-                            <div class="clients-left">
-                                <img src="images/clients-3.png" alt=""/>
-                                <img src="images/clients-3.png" alt=""/>
-                            </div>
-                            <div class="clients-left">
-                                <img src="images/clients-1.png" alt=""/>
-                                <img src="images/clients-1.png" alt=""/>
-                            </div>
-                            <div class="clients-left">
-                                <img src="images/clients-2.png" alt=""/>
-                                <img src="images/clients-2.png" alt=""/>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
+    <!--start-fb-api-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!--end-fb-api-->
+	<!--start-banner-->
+	<div class="header" id="home">
+            <div class="container">
+                <div class="logo">
+                    <img class="imglogo" src="images/page-logo.png">
+                </div>
+                <div class="social-icons">
+                    <li><a href="https://www.facebook.com/iitguwahatimun"><i class="facebook"> </i></a></li>
+                    <li><a href="https://twitter.com/iitgmun"><i class="twitter"> </i></a></li>
+                </div>
+                <!--<h1>" Coming <span>back</span> soon "</h1>-->
+                <ul id="countdown">
+                    <span class="timer">DAY</span>
+                    <span class="timer-1">HOURS</span>
+                    <span class="timer-2">MINUTES</span>
+                    <span class="timer-3">SECONDS</span>
                 </ul>
             </div>
-            <div class="clearfix"> </div>
         </div>
+	<div class="header-home">
+	<div class="fixed-header">
+	   <div class="h_menu4"><!-- start h_menu4 -->
+	   	<div class="header-left">
 
+	   			<div class="header-left-text">
+					<a class="toggleMenu" href="#"><img src="images/menu-icon.png" alt=""/></a>
+                    <ul class="nav">
+                        <li><a href="index.html">HOME</li>
+                        <li><a href="about.html">ABOUT</li>
+                        <li><a href="team.html">TEAM</a></li>
+                        <li><a href="">APPLY</li>
+                        <li>
+                            <a href="#">COMMITTEES</a>
+                            <ul>
+                                 <li><a href="comm1.html">IAEA</a></li>
+                                 <li><a href="comm2.html">SC</a></li>
+                                 <li><a href="comm3.html">ECA</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="mun-diaries.html">MUN DIARIES</a></li>
+                        <li><a href="archives.html">ARCHIVES</li>
+                        <li><a href="sponsors.html">PARTNERS</li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+				</div>
+				<div class="clearfix"></div>
+				<script type="text/javascript" src="js/nav.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>		
+				 <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!--script-for-sticky-nav-->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!--/script-for-sticky-nav-->
+		</div>
+		<div class="header-right">
+			<ul>
+                <li><a href="#"><span class="notify" id="shownotice"> </span></a></li>
+                <li><a href="https://www.facebook.com/iitguwahatimun"><span class="fb"> </span></a></li>
+                <li><a href="https://www.youtube.com/user/technicheiitg"><span class="yt"> </span></a></li>
+                <li><a href="http://iitgmuntechniche.wordpress.com/"><span class="wp"> </span></a></li>
+                <script type="text/javascript">
+
+                </script>
+			</ul>
+            <img id="munlogopic" src="images/munfinal02.png">
+		</div>
+		<div class="clearfix"></div>
+        </div><!-- end h_menu4 -->
+       </div>
+     </div>
+	</div>
+	<!--end-banner-->
+    <div class="toolbar">
+        <img id="open-sb" src="images/DID-U-KNOW.png">
+        <!--<div id="open-sb" class="menu-button menu-left"></div>-->
+        <script>
+            $(document).ready(function() {
+                var navoffeset=$(".header-home").offset().top;
+                $(window).scroll(function(){
+                    var scrollpos=$(window).scrollTop();
+                    if(scrollpos >=navoffeset){
+                        $(".toolbar").addClass("shownow");
+                    }else{
+                        $(".toolbar").removeClass("shownow");
+                    }
+                });
+
+            });
+        </script>
     </div>
-</div>
-<!--end-clients-->
-<!--Slider-Starts-Here-->
-<script src="js/responsiveslides.min.js"></script>
-<script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-        // Slideshow 4
-        $("#slider4").responsiveSlides({
-            auto: true,
-            pager: true,
-            nav: true,
-            speed: 500,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
-            }
+
+    <section class="sidebar">
+        <nav>
+            <h6>Did you know facts</h6>
+            <ol>
+                <li>The UN is headquartered in New York city, with offices in only three other cities of the world : Nairobi, Vienna and Geneva
+                </li>
+                <li>The Israel Palestine peacekeeping mission was the first peacekeeping mission of the UN, ordered in 1948. Being still active, it is also hence the longest running UN peacekeeping mission
+                </li>
+                <li>The land and building of the UN are international territory. In fact, the building doesn't even meet the building and safety requirements of New York City.
+                </li>
+                <li> The International Labour Organization, a body under the ECOSOC, was actually established in 1919 under the League of Nations and has continued under the umbrella of the UN. It is the only such body.
+                </li>
+                <li>Before the UN Charter was signed, Australia tried to limit the veto power of the P-5 to matters of direct national security only. However, with the scenario as it was then, it was defeated. It however remains the closest anyone's ever come to reform the veto power</li>
+            </ol>
+
+            <hr>
+        </nav>
+    </section>
+    </div>
+
+
+    <script>
+        $( document ).ready(function() {
+            $.ajaxSetup({
+                cache: false
+            });
+            $( '.sidebar' ).simpleSidebar({
+                settings: {
+                    opener: '#open-sb',
+                    wrapper: '.wrapper',
+                    animation: {
+                        duration: 500,
+                        easing: 'easeOutQuint'
+                    }
+                },
+                sidebar: {
+                    align: 'left',
+                    width: 500,
+                    closingLinks: 'a',
+                }
+            });
         });
+    </script>
+    <!--start-about-->
+    <div class="about" id="home-main">
+        <div class="container">
+            <div class="about-main">
+                <h3>Secretary General's Message</h3>
+                <div class="about-top">
+                    <p>
+                       Dear Delegates and Faculty Advisors,<br>
+                    It is with utmost pleasure and honour that I welcome you to the fourth edition of the IIT-Guwahati Model United Nations Conference. From Friday, September 4th to Sunday, September 6th 2015, delegates from every nook and corner of the country will be convening in Guwahati, Assam for another round of refreshing debate and impassioned pleas by representatives. Hosted by the literary society of IIT Guwahati, the Fall edition promises to surpass the standards of excellence established by its preceding session.
+                    </p>
+                    <p>
+                    After an immensely successful third session, I, along with an extremely passionate Secretariat, am delighted to bring forth the legacy that we are trying to imbibe in IIT-Guwahati MUN. We want to focus on innovations in MUN-ing and enhance the overall delegate experience. We are excited to present three distinct committees with the most exceptional crisis committees, all of which will test delegates’ abilities to address and expand their global-view. Our exceptionally talented chairs and staff will steer the delegates through their exploration of various range of issues. This year’s conference aims at creating an entirely new IIT-Guwahati MUN experience, which begins before the delegates step into the conference. 
+                    </p>
+                    <p>
+                    Our vision is to create a platform for the future leaders of the world to grace and shine upon! We at IIT-Guwahati MUN very firmly believe that the MUN Conferences are not just an exploration of world-views but also a platform to formulate one’s perception and ideology. Part of what makes this experience unforgettable are the socials and press- conferences organised to enhance the informal delegate interactions. To complete the delegate experience, we have 4 Pro-Nites during Techniche to provide the delegates with an opportunity to relax and simmer down.
+                    </p>
+                    <p>
+                    The Secretariat is hard at work planning an invaluable experience and an unforgettable conference. We want to watch IIT-Guwahati MUN prosper and we are committed to preserving the legacy of the excellent conference we had in the previous edition. At the same time we are equally excited to implement some new and exciting ideas as well as increase the number of councils. As we strive to ensure satisfaction, we would love to hear your concerns or comments. If you have any questions or concerns at any point, please don't hesitate to contact me by email - aditya.jain3645@gmail.com. I look forward to welcoming you in the Fall edition of IIT-Guwahati Model United Nations, Techniche 2015. 
+                    </p>
+                    <p>
+                    Best Regards,<br> 
+                    Aditya Jain<br>
+                    Secretary General<br>
+                    IIT Guwahati Model United Nations Conference<br>
+                    </p>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+  <!--  </div>
+    &lt;!&ndash;end-about&ndash;&gt;
+	&lt;!&ndash;start-what&ndash;&gt;
+    &lt;!&ndash;start-about&ndash;&gt;
+    <div class="mun-wrapper">-->
+<br><br> <br>       <hr style="width: 90%; align-content: center; text-align: center; margin: auto">
+        <div class="container">
+            <div class="mun-wrapper-main">
 
-    });
-</script>
-<script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-        // Slideshow 4
-        $("#slider5").responsiveSlides({
-            auto: true,
-            pager: true,
-            nav: false,
-            speed: 500,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
-            }
-        });
+                <div class="mun-container">
+                <div class="mun-wrapper-video-left" style="max-width: 50%">
+                    <h3 style="color:black">MUN DIARIES</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/26cueOFs84U" frameborder="0" allowfullscreen></iframe>
+                    <h3 style="margin-bottom: 2%">Promo</h3>
+                    <div class="mun-diaries-video-footer"><p>IIT Guwahati Model United Nations, Techniche presents to you, a one of its kind initiative, "MUN DIARIES"! .Tell us about your experiences as a delegate or your expectations as a potential delegate among other things! Lets hear what you got!</p></div>
+                    <div class="clearfix"></div></div>
+                <div class="mun-wrapper-fb-right">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/iitguwahatimun" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>            </div>
+                    </div>
+        </div>
+    </div>
+    <!--end-about-->
 
-    });
-</script>
-<!--End-slider-script-->
-<!--start-blog-->
 
-<!--end-blog-->
+
+
+	<!--start-footer-->
+    <!--<div class="footer-payment" style="background-color: rgb(51,51,51); padding-top: 15px; padding-bottom: 15px">
+        <div class="container">
+            <div class="payclick">
+                <h3 style="text-align: center; color: white">Click for Payment Details</h3>
+            </div>
+            <div class="payinfo" style="display: none">
+                <h3 style="text-align: center; color: white">Coming soon</h3>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.payclick').click(function() {
+                        $('.payinfo').slideToggle("fast");
+                    });
+                });
+            </script>
+        </div>
+    </div>-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+                <div id="contactus">
+
+                    <div id="furthercont">
+                        <span>For more information contact</span><br>
+                    </div>
+
+                    <div id="email">
+                        <span id="ab">For further queries drop us a mail at</span><br>
+                        <img src="images/email.png"><span>iitgmun@techniche.org</span>
+                    </div><br>
+                    <div id="furthercont1">
+                        <span>Aditya Jain</span><span><a href="mailto:aditya.jain3645@gmail.com">aditya.jain3645@gmail.com</a></span><br>
+                        <span>Milind Singh</span><span>+91-8011026703</span><br>
+                        <span>Aditi Gupta</span><span>+91-8011022294</span>
+                    </div>
+
+
+                    <div id="credits">
+                        <div id="logo">
+                            <img src="images/munlogo-white.png">
+                            </br>
+                        </div>
+                    </div>
+                </div>
+                 <div>
+
+                </div>
+              </div>
+        </div>
+        <div style="margin: auto"> <span style="font-size:18px; text-align: center; color: white;">Developed by <strong>Kunaal Jain</strong></span></div>
+
+        <script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-->
 </body>
 </html>

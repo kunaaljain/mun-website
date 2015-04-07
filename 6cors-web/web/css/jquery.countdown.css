@@ -19,7 +19,7 @@
 .digit{
 	position:absolute;
 	display:block;
-	border-radius:0.2em;
+	border-radius: 0.2em;
 	text-align:center;
 	color:#fff;
 	letter-spacing:-1px;
